@@ -1,0 +1,38 @@
+Request method:	GET
+Request URI:	https://practice.expandtesting.com/notes/api/users/profile
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-auth-token=2b803909d003438abc0618788a6c1567fe201522256a4ddbb6989294355a3016
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, PUT, DELETE, PATCH
+access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token
+content-type: application/json; charset=utf-8
+content-encoding: gzip
+etag: W/"89-tUL2zD06q/YFk4YZudYhSdP3GOc"
+set-cookie: express:sess=eyJmbGFzaCI6e319; path=/; httponly
+set-cookie: express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly
+date: Sun, 19 May 2024 15:21:14 GMT
+connection: keep-alive
+keep-alive: timeout=5
+transfer-encoding: chunked
+
+{
+    "success": true,
+    "status": 200,
+    "message": "Profile successful",
+    "data": {
+        "id": "66253ef155382801413f8946",
+        "name": "abcd",
+        "email": "b@gmail.com"
+    }
+}
